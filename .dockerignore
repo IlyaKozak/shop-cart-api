@@ -7,3 +7,5 @@ dist
 # test folder is not used during image build
 test
 
+Dockerfile
+
