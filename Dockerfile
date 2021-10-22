@@ -10,4 +10,8 @@ RUN npm install --loglevel=error
 COPY . .
 RUN npm run build
 
+# Application
+ENV PORT 8080
+EXPOSE 8080
+
 CMD ["node", "dist/main"]
